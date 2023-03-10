@@ -1,1 +1,327 @@
+<!DOCTYPE html>
+<html>
+<style>
+   @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+.menu {
+    display: flex
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex
+    }
+    
+li {
+  float: left;
+}
+
+li a {
+    display: flex
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+.w33{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center
+    }
+    
+    .w33 > img{
+        margin-right: 40px
+            
+    }
+    
+.nav{
+       display: flex;
+    
+        
+    }
+    .titulo1 h3{
+        text-align: center;
+        
+        
+    }
+    
+    .icon{
+        
+        
+    }
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 1.0rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+    height: 180px;
+    width: 300px;
+    position: relative;
+    margin-left: 15px; 
+    margin-right: 15px;
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+.card_title {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: black;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+    
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+    
+}
+img1 {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ejercicio</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <div class="menu">
+            <nav class="w33 nav">
+                
+                <ul >
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+                
+                
+                
+            </nav>
+            
+            <div class="w33 titulo1">
+                
+                <h3>
+                    Dream Agency
+                </h3>
+                
+                
+            </div>
+            
+            <div class="w33 icon" style="">
+                
+                <img src="imagenes\facebook.png">
+                <img src="imagenes\in.png">
+                <img src="imagenes\instagram.png">
+                
+            </div>
+            
+            
+        </div>
+        
+        <div style = "display: flex;">
+            <div >
+               <img style="    margin-top: 139px;" src="imagenes\Te ayudamos a hacer crecer tu negocio.png">
+               <h5>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                   <br >when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h5> 
+                <button style="border-radius: 5px; background: #341c5a; color: white; margin-top: -290px; height: 64px; width: 206px;">Get Starter</button>
+                    
+    
+    
+            </div>            
+        </div>
+        
+                <img src="imagenes\Group 3.png" style="position: absolute; top: -20px; right: 0; object-fit: cover">
+        
+        
+    
+        
+        <div style="margin-top: 300px; z-index: 0; width: 100%;">
+             <img src="imagenes\Group 4.png" style="position: relative; left: : 0; object-fit: cover; width: 100%;">
+        </div>
+        
+        <div style="margin-top: -550px; text-align: center; position: relative;">
+            <img src="imagenes\Lo que hacemos Para tu negocio.png">
+        </div>
+        
+        <div style="flex-direction: row; display: flex; justify-content: center;">
+            <div class="card">
+            <div class="card_image" ><img src="imagenes\navegacion.png" style="margin: 10px;"></div>
+            <div class="card_content">
+              <h2 class="card_title">Card de Prueba</h2>
+              <p class="card_text">Prueba de Cards en Html Diseño web</p>
+              
+            </div>
+          </div>
+            
+            <div class="card" >
+            <div class="card_image" ><img src="imagenes\2.png" style="margin: 10px;"></div>
+            <div class="card_content">
+              <h2 class="card_title">Card de Prueba</h2>
+              <p class="card_text">Prueba de Cards en Html Diseño web</p>
+              
+            </div>
+          </div>
+            
+            <div class="card" >
+            <div class="card_image" > <img src="imagenes\3.png"  style="margin: 10px;"></div>
+            <div class="card_content">
+              <h2 class="card_title">Card de Prueba</h2>
+              <p class="card_text">Prueba de Cards en Html Diseño web</p>
+               
+            </div>
+          </div>
+        </div>
+       
+          <div >
+             <img src="imagenes\Rectangle 39.png" style="margin-top: 300px; z-index: 0; width: 100%;position: static; left: : 0; object-fit: cover; width: 100%;">
+        </div> 
+        
+        <h1 style="margin-top: -459px; padding: 61px; color: white;"> Dream Agency </h1>
+        <h4 style="margin-top: -100px; padding: 61px; color: white;"> Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s, when an unknown printer took a galley <br>of type and scrambled it to make a type specimen book. It<br> has survived not only five centuries.</h4>
+        <h3 style="margin-top: -90px; padding: 61px; color: white;">Get In Touch</h3>
+        
+         
+        
+        <div style="margin-top: -1054px; padding: 730px;">
+            
+            <input style=" color: white; width: 273px; " type="text">
+            
+           
+            
+            <div style="height: 38px; margin-top: 19px;">
+            <input style=" color: white; width: 273px; " type="text">
+            </div>
+            
+            <div style="height: 38px; ">
+            <input style=" color: white; width: 273px; height: 143px;" type="text">
+            </div>
+            
+            
+        </div>
+        
+            <div style="margin-top: -1328px; padding: 731px;">
+           <button style="background: orange; color: white; margin-top: -290px; height: 44px; width: 271px;">send</button>
+            </div>
+        
+        <div style="margin-top: -2035px; padding: 1023px;">
+            
+    
+            <input style=" color: white; width: 273px; " type="text">
+            
+            <div style="height: 38px; margin-top: 19px;">
+            <input style=" color: white; width: 273px; " type="text">
+            </div>
+            
+            <div style="height: 38px; margin-top: 19px;">
+            <img src="imagenes\6.png" style="width: 407px;">
+                
+            </div>
+        </div>
+            
+        
+    </body>
+    
+     
+</html>
